@@ -1,4 +1,4 @@
-# tls-go
+# tls [![godoc](https://godoc.org/github.com/malivvan/tls?status.svg)](https://godoc.org/github.com/malivvan/tls) ![test](https://github.com/malivvan/tls/workflows/test/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/malivvan/tls/badge.svg?branch=master)](https://coveralls.io/github/malivvan/tls?branch=master) [![Release](https://img.shields.io/github/v/release/malivvan/tls.svg?sort=semver)](https://github.com/malivvan/tls/releases/latest) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 tls-go is a fork of "crypto/tls", which provides ClientHello fingerprinting resistance, low-level access to handshake, fake session tickets and some other features. Handshake is still performed by "crypto/tls", this library merely changes ClientHello part of it and provides low-level access.  
 
