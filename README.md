@@ -2,7 +2,6 @@
 
 tls-go is a fork of "crypto/tls", which provides ClientHello fingerprinting resistance, low-level access to handshake, fake session tickets and some other features. Handshake is still performed by "crypto/tls", this library merely changes ClientHello part of it and provides low-level access.  
 
-# Vendor
 - `.` github.com/bogdanfinn/utls v1.7.7-barnius
 - `./cpu` github.com/refraction-networking/utls v1.1.2
 
